@@ -60,4 +60,4 @@ Posts originated as a dev.to export and follow a consistent house style. When cr
 
 - **Commits** must follow Conventional Commits — enforced by commitlint via the Husky `commit-msg` hook.
 - **Pre-commit** runs `lint-staged`: Prettier on everything.
-- Formatting is Prettier with `@allindevelopers/prettier-config` + Astro and Tailwind plugins. Code style here uses tabs and `let` over `const` for locals — match the surrounding style.
+- Formatting is Prettier with `@all1ndev/prettier-config` + Astro and Tailwind plugins. Code style here uses tabs and `let` over `const` for locals — match the surrounding style.
