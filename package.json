@@ -16,28 +16,27 @@
 	},
 	"dependencies": {
 		"@allindevelopers/prettier-config": "^1.1.0",
-		"@astrojs/check": "^0.9.9",
-		"@astrojs/react": "^5.0.7",
-		"@commitlint/cli": "^21.0.2",
-		"@commitlint/config-conventional": "^21.0.2",
+		"@astrojs/check": "^0.9.10",
+		"@astrojs/react": "^6.0.2",
+		"@commitlint/cli": "^21.2.1",
+		"@commitlint/config-conventional": "^21.2.0",
 		"@heroicons/react": "^2.2.0",
 		"@playform/inline": "^0.1.4",
 		"@tailwindcss/typography": "^0.5.20",
-		"@tailwindcss/vite": "^4.3.1",
+		"@tailwindcss/vite": "^4.3.3",
 		"@total-typescript/ts-reset": "^0.6.1",
-		"@types/react": "^19.2.17",
-		"@types/react-dom": "^19.2.3",
-		"astro": "^6.4.7",
+		"@types/react": "^19.2.18",
+		"@types/react-dom": "^19.2.4",
+		"astro": "^7.1.6",
 		"husky": "^9.1.7",
-		"lint-staged": "^17.0.7",
-		"prettier": "^3.8.4",
+		"lint-staged": "^17.3.0",
+		"prettier": "^3.9.6",
 		"prettier-plugin-astro": "^0.14.1",
-		"prettier-plugin-tailwindcss": "^0.8.0",
-		"react": "^19.2.7",
-		"react-dom": "^19.2.7",
+		"prettier-plugin-tailwindcss": "^0.8.1",
+		"react": "^19.2.8",
+		"react-dom": "^19.2.8",
 		"tailwindcss": "^4.1.4",
-		"tailwindcss-animated": "^2.1.0",
-		"typescript": "^6.0.3"
+		"tailwindcss-animated": "^2.1.0"
 	},
 	"lint-staged": {
 		"*": "npx prettier --write --ignore-unknown"
@@ -48,14 +47,15 @@
 		]
 	},
 	"allowScripts": {
-		"esbuild@0.27.7": true,
 		"fsevents@2.3.3": true,
-		"sharp@0.34.5": true
+		"sharp@0.34.5": true,
+		"esbuild@0.28.1": true
 	},
 	"devDependencies": {
-		"@fontsource/inter": "^5.2.8",
-		"satori": "^0.26.0",
+		"@fontsource/inter": "^5.3.0",
+		"satori": "^0.29.0",
 		"satori-html": "^0.3.2",
-		"sharp": "^0.35.1"
+		"sharp": "^0.35.3",
+		"typescript": "^6.0.3"
 	}
 }
