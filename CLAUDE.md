@@ -4,18 +4,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Personal portfolio + blog at [all1n.dev](https://all1n.dev/), built with Astro 5 (static output) and deployed to GitHub Pages. Requires Node >=24 and npm >=11 (see `.nvmrc`).
+Personal portfolio + blog at [all1n.dev](https://all1n.dev/), built with Astro 5 (static output) and deployed to GitHub Pages. Requires Node >=24 and pnpm >=11 (see `.nvmrc`).
 
 ## Commands
 
-| Command                  | Action                                                                                                  |
-| :----------------------- | :------------------------------------------------------------------------------------------------------ |
-| `npm run dev`            | Local dev server                                                                                        |
-| `npm run build`          | Full production build — runs `astro check && tsc --noEmit && astro build` (type-checks before building) |
-| `npm run preview`        | Preview the built `./dist/` locally                                                                     |
-| `npm run astro -- <cmd>` | Run Astro CLI directly                                                                                  |
+| Command                   | Action                                                                                                  |
+| :------------------------ | :------------------------------------------------------------------------------------------------------ |
+| `pnpm run dev`            | Local dev server                                                                                        |
+| `pnpm run build`          | Full production build — runs `astro check && tsc --noEmit && astro build` (type-checks before building) |
+| `pnpm run preview`        | Preview the built `./dist/` locally                                                                     |
+| `pnpm run astro -- <cmd>` | Run Astro CLI directly                                                                                  |
 
-There is **no test framework** in this repo — do not invent test commands. Verification is `npm run build` (which includes `astro check` + `tsc --noEmit`).
+There is **no test framework** in this repo — do not invent test commands. Verification is `pnpm run build` (which includes `astro check` + `tsc --noEmit`).
 
 ## Architecture
 

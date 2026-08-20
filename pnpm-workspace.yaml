@@ -1,0 +1,6 @@
+allowBuilds:
+    esbuild: true
+
+enableGlobalVirtualStore: true
+strictPeerDependencies: true
+injectWorkspacePackages: true
