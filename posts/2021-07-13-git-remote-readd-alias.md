@@ -1,8 +1,8 @@
 ---
 title: 🔧 Git remote readd alias
 description: >-
-  tl;dr Alias for removing Git remote and adding it back     git config --global
-  alias.readd '!f() {...
+    Alias for removing Git remote and adding it back     git config --global
+    alias.readd '!f() {...
 tags: github, git, alias, remote
 created_at: "2021-07-13T22:44:54.626Z"
 edited_at: "2021-10-06T15:45:44.340Z"

@@ -1,8 +1,8 @@
 ---
 title: 🩹 Migrate from patch-package to pnpm patch
 description: >-
-  tl;dr A few simple steps to migrate your existing patch-package patches to
-  pnpm patch. You can even batch...
+    A few simple steps to migrate your existing patch-package patches to pnpm
+    patch. You can even batch...
 tags: pnpm, patch-package, npm, node
 created_at: "2026-06-17T09:30:00.000Z"
 published_at: "2026-06-17T10:00:00.000Z"
