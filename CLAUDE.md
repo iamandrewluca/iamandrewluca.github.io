@@ -42,13 +42,13 @@ Posts originated as a dev.to export and follow a consistent house style. When cr
 
 - Filename: `YYYY-MM-DD-kebab-case-slug.md` (date = creation date).
 - `title`: starts with a single leading emoji, e.g. `🩹 Migrate from patch-package to pnpm patch`.
-- `description`: usually a folded scalar (`>-`) that opens with `tl;dr` and summarizes the takeaway.
+- `description`: usually a folded scalar (`>-`) summarizing the takeaway in a sentence or two. It is rendered as `<meta name="description">`, `og:description` and `twitter:description` in `src/layouts/Layout.astro`, and as the subtitle in the post list, so keep it a clean standalone sentence. Do **not** prefix it with `tl;dr` (that belongs in the body blockquote), and do not paste truncated body text into it.
 - `created_at` / `published_at` / optional `edited_at`: quoted ISO-8601 timestamps.
 - `tags`: a comma-separated string is conventionally present, **but is not in the collection schema** (`src/content.config.ts`) and is ignored by the site. Don't add schema-unknown fields expecting them to render; only `title`/`description`/dates are used.
 
 **Body structure**
 
-- Open with a `> **tl;dr** ...` blockquote, frequently followed immediately by the final solution (code/alias) before any explanation — answer first, explain after.
+- Open with a `> **tl;dr** ...` blockquote, frequently followed immediately by the final solution (code/alias) before any explanation — answer first, explain after. Only 4 of the posts do this today, but it is the house style for anything new.
 - Number multi-step procedures with `####` headings (`#### 1. ...`).
 - Use blockquote callouts prefixed with an emoji for asides: `> 💡 ...`, `> 📝 ...`, `> ⚠️ ...`.
 - Always language-tag code fences (`bash`, `shell`, `jsx`, `js`, `ts`, `text`, `properties`); show command output in a separate `text` fence after the command.
